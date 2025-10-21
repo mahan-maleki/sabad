@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "sabad-regular";
+    src: url("../assets/fonts/YekanBakh-Regular.woff");
+}
+
+@font-face {
+    font-family: "sabad-bold";
+    src: url("../assets/fonts/YekanBakh-Bold.woff");
+}
+
+@font-face {
+    font-family: "sabad-extrablack";
+    src: url("../assets/fonts/YekanBakh-ExtraBlack.woff");
+}
+
+.bold {
+    font-family: "sabad-bold" !important;
+}
+
+.extrablack {
+    font-family: "sabad-extrablack" !important;
+}
+
+body {
+    color: #121212;
+    background: #FFF;
+    font-family: "sabad-regular";
+}
+
+.btn-primary {
+    background: #E18236;
+    border: #E18236;
+}
+
+.btn-primary:hover {
+    background: #eb8d40;
+}
+
+.btn-primary:active {
+    background-color: #fd9f51 !important;
+}
