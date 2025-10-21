@@ -1,0 +1,7 @@
+.list {
+    list-style-type: square;
+}
+
+.list::marker {
+    color: #00000070 !important;
+}
