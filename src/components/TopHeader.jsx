@@ -12,7 +12,7 @@ function TopHeader() {
                         <img src="/sabad-logo.png" alt="لوگوی وبسایت سبد" className={css.logo} />
                         <span className='me-2 extrablack'>ســبــد</span>
                     </div>
-                    <div className="col-7 d-none d-lg-flex align-items-center justify-content-start">
+                    <div className="col-5 d-none d-lg-flex align-items-center justify-content-start">
                         <ul className='mb-0 d-flex justify-content-start'>
                             <li className='list-unstyled mx-3'><NavLink to={""} className={"link-dark text-decoration-none"}>فروشگاه</NavLink></li>
                             <li className='list-unstyled mx-3'><NavLink to={""} className={"link-dark text-decoration-none"}>بازار</NavLink></li>
@@ -20,7 +20,7 @@ function TopHeader() {
                             <li className='list-unstyled mx-3'><NavLink to={""} className={"link-dark text-decoration-none"}>اشتراک</NavLink></li>
                         </ul>
                     </div>
-                    <div className="col-4 d-none d-lg-block">
+                    <div className="col-6 d-none d-lg-block">
                         <div className="row">
                             <div className="col-9 d-flex justify-content-end">
                                 <button className='btn btn-dark rounded-2'><NavLink to={""} className="text-light text-decoration-none ms-3">ورود</NavLink><LogIn size={18} /></button>
