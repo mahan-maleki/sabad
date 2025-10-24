@@ -35,7 +35,7 @@ function Home() {
                         <h3 className='me-2'>پرفروش ترین <span className='border-bottom border-4 bold border-primary-subtle'>محصولات</span></h3>
                     </div>
                     <div className="col-12 mt-4">
-                        <div className="row">
+                        <div className="row d-flex justify-content-center justify-content-lg-start">
                             <ProductCard image="../../public/b52f9e5ac0e251729f27ac4f7176068344197b6f_1754241710.webp" title="لپتاپ 16.2 اینچی مک بوک پرو" link="#" price="100,000,000" rate="4.5" />
                             <ProductCard image="../../public/b52f9e5ac0e251729f27ac4f7176068344197b6f_1754241710.webp" title="لپتاپ 16.2 اینچی مک بوک پرو" link="#" price="102,500,000" rate="4.7" />
                             <ProductCard image="../../public/b52f9e5ac0e251729f27ac4f7176068344197b6f_1754241710.webp" title="لپتاپ 16.2 اینچی مک بوک پرو" link="#" price="105,999,000" rate="4.2" />
