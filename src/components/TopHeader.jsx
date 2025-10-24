@@ -1,7 +1,7 @@
 import React from 'react'
 import css from "./TopHeader.module.css"
 import { NavLink } from 'react-router'
-import { LogIn, Fingerprint } from 'lucide-react'
+import { LogIn } from 'lucide-react'
 
 function TopHeader() {
     return (
@@ -20,15 +20,8 @@ function TopHeader() {
                             <li className='list-unstyled mx-3'><NavLink to={""} className={"link-dark text-decoration-none"}>اشتراک</NavLink></li>
                         </ul>
                     </div>
-                    <div className="col-6 d-none d-lg-block">
-                        <div className="row">
-                            <div className="col-9 d-flex justify-content-end">
-                                <button className='btn btn-dark rounded-2'><NavLink to={""} className="text-light text-decoration-none ms-3">ورود</NavLink><LogIn size={18} /></button>
-                            </div>
-                            <div className="col-3 d-flex justify-content-start pe-0">
-                                <button className='btn btn-primary rounded-2'><NavLink to={""} className="text-light text-decoration-none ms-3">ثبت نام</NavLink><Fingerprint size={18} /></button>
-                            </div>
-                        </div>
+                    <div className="col-6 d-none d-lg-flex justify-content-end">
+                        <button className='btn btn-light'><NavLink to={""} className="text-decoration-none ms-2 text-dark">ورود | ثبت نام</NavLink><LogIn size={18} color='#404040' /></button>
                     </div>
                 </div>
             </div>
