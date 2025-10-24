@@ -15,7 +15,7 @@ function ProductCard(props) {
                 <NavLink className={"text-decoration-none text-dark"} to={props.link}>
                     <div className="row">
                         <div className="col-12">
-                            <img src={props.image} alt="product image" />
+                            <img src={props.image} alt="product image" className='w-100' />
                         </div>
                         <div className="col-12 px-3">
                             <h3 className='fs-5'>{props.title}</h3>
