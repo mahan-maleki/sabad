@@ -1,0 +1,51 @@
+.swiper-bootstrap {
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* دکمه‌های سفارشی */
+.custom-prev,
+.custom-next {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    transform: translateY(-50%);
+    border: none;
+    background: #00000070;
+    color: #FFFFFF90;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    backdrop-filter: blur(2px);
+}
+
+.custom-prev:hover,
+.custom-next:hover {
+    background: #00000090;
+    color: #FFF;
+}
+
+.custom-prev {
+    left: 10px;
+}
+
+.custom-next {
+    right: 10px;
+}
+
+/* نقطه‌ها */
+.swiper-pagination-bullet {
+    background-color: #ffffff90;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #FFF;
+    transform: scale(1.2);
+}
