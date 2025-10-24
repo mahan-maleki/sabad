@@ -19,12 +19,21 @@
     src: url("../assets/fonts/YekanBakh-ExtraBlack.woff");
 }
 
+@font-face {
+    font-family: "sabad-price";
+    src: url("../assets/fonts/IRANSansXFaNum-Bold.woff");
+}
+
 .bold {
     font-family: "sabad-bold" !important;
 }
 
 .extrablack {
     font-family: "sabad-extrablack" !important;
+}
+
+.price {
+    font-family: "sabad-price" !important;
 }
 
 body {
