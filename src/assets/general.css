@@ -45,3 +45,7 @@ body {
 .btn-primary:active {
     background-color: #fd9f51 !important;
 }
+
+.border-primary-subtle {
+    border-color: #E18236 !important;
+}
