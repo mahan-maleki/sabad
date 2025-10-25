@@ -3,3 +3,31 @@
     height: 12px;
     background: #E18236;
 }
+
+.card {
+    position: relative;
+    left: 200px;
+    z-index: 4;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(#d36408, #ff7300);
+    border-radius: 50%;
+    box-shadow: 0 0 20px 0px #00000010;
+    z-index: 3;
+    position: relative;
+    bottom: 100px;
+    right: 200px;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(#0076c5, #015994);
+    border-radius: 40px;
+    position: relative;
+    top: 100px;
+    left: 250px;
+}

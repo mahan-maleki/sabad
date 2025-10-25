@@ -1,0 +1,26 @@
+@media screen and (max-width: 1080px) {
+    .card {
+        left: 0;
+        margin-right: auto;
+        margin-left: auto;
+        bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .card {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .card {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .card {
+        width: 200px;
+    }
+}
