@@ -58,3 +58,7 @@ body {
 .border-primary-subtle {
     border-color: #E18236 !important;
 }
+
+.bg-primary {
+    background: #E18236 !important;
+}
