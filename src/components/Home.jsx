@@ -4,6 +4,8 @@ import css from "./Home.module.css"
 import EventCard from './EventCard'
 import ProductCard from './ProductCard'
 import More from './More'
+import { CreditCard } from 'lucide-react'
+import "./Home.css"
 
 function Home() {
     return (
@@ -44,6 +46,26 @@ function Home() {
                             <ProductCard image="/b52f9e5ac0e251729f27ac4f7176068344197b6f_1754241710.webp" title="لپتاپ 16.2 اینچی مک بوک پرو" link="#" price="130,000,000" rate="5" />
                             <More to="#" />
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div className="container-fluid mt-5">
+                <div className="row">
+                    <div className="col-12 col-lg-7 bg-dark p-5 d-flex justify-content-center justify-content-lg-start">
+                        <div className="row">
+                            <div className="col-12">
+                                <h2 className='extrablack fs-1 text-white'><span className='text-white'>با</span> <span className='text-primary'>ســبــد کــارت</span></h2>
+                                <p className='mt-4 fs-2 text-white'>از <span className='bold'>فروشگاه های سبد</span>،<br /> <span className='text-primary border-bottom border-3 border-primary-subtle'>حضوری</span> خرید کنید</p>
+                            </div>
+                            <div className="col-12 mt-4">
+                                <button className='btn btn-primary px-4 py-3 rounded-3'>دریافت سبد کارت <CreditCard className='me-2' /></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-12 col-lg-5 bg-body-secondary p-5">
+                        <div className={css.square + " d-none d-lg-block"}></div>
+                        <img src="/sabad-card.png" alt="عکس سبد کارت" width={"70%"} className={css.card + " card"} />
+                        <div className={css.circle + " d-none d-lg-block"}></div>
                     </div>
                 </div>
             </div>
