@@ -3,6 +3,7 @@ import Slider from './Slider'
 import css from "./Home.module.css"
 import EventCard from './EventCard'
 import ProductCard from './ProductCard'
+import More from './More'
 
 function Home() {
     return (
@@ -41,7 +42,7 @@ function Home() {
                             <ProductCard image="/b52f9e5ac0e251729f27ac4f7176068344197b6f_1754241710.webp" title="لپتاپ 16.2 اینچی مک بوک پرو" link="#" price="105,999,000" rate="4.2" />
                             <ProductCard image="/b52f9e5ac0e251729f27ac4f7176068344197b6f_1754241710.webp" title="لپتاپ 16.2 اینچی مک بوک پرو" link="#" price="99,989,000" rate="3.5" />
                             <ProductCard image="/b52f9e5ac0e251729f27ac4f7176068344197b6f_1754241710.webp" title="لپتاپ 16.2 اینچی مک بوک پرو" link="#" price="130,000,000" rate="5" />
-                            {/* More */}
+                            <More to="#" />
                         </div>
                     </div>
                 </div>
