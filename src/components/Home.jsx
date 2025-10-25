@@ -36,11 +36,11 @@ function Home() {
                     </div>
                     <div className="col-12 mt-4">
                         <div className="row d-flex justify-content-center justify-content-lg-start">
-                            <ProductCard image="../../public/b52f9e5ac0e251729f27ac4f7176068344197b6f_1754241710.webp" title="لپتاپ 16.2 اینچی مک بوک پرو" link="#" price="100,000,000" rate="4.5" />
-                            <ProductCard image="../../public/b52f9e5ac0e251729f27ac4f7176068344197b6f_1754241710.webp" title="لپتاپ 16.2 اینچی مک بوک پرو" link="#" price="102,500,000" rate="4.7" />
-                            <ProductCard image="../../public/b52f9e5ac0e251729f27ac4f7176068344197b6f_1754241710.webp" title="لپتاپ 16.2 اینچی مک بوک پرو" link="#" price="105,999,000" rate="4.2" />
-                            <ProductCard image="../../public/b52f9e5ac0e251729f27ac4f7176068344197b6f_1754241710.webp" title="لپتاپ 16.2 اینچی مک بوک پرو" link="#" price="99,989,000" rate="3.5" />
-                            <ProductCard image="../../public/b52f9e5ac0e251729f27ac4f7176068344197b6f_1754241710.webp" title="لپتاپ 16.2 اینچی مک بوک پرو" link="#" price="130,000,000" rate="5" />
+                            <ProductCard image="/b52f9e5ac0e251729f27ac4f7176068344197b6f_1754241710.webp" title="لپتاپ 16.2 اینچی مک بوک پرو" link="#" price="100,000,000" rate="4.5" />
+                            <ProductCard image="/b52f9e5ac0e251729f27ac4f7176068344197b6f_1754241710.webp" title="لپتاپ 16.2 اینچی مک بوک پرو" link="#" price="102,500,000" rate="4.7" />
+                            <ProductCard image="/b52f9e5ac0e251729f27ac4f7176068344197b6f_1754241710.webp" title="لپتاپ 16.2 اینچی مک بوک پرو" link="#" price="105,999,000" rate="4.2" />
+                            <ProductCard image="/b52f9e5ac0e251729f27ac4f7176068344197b6f_1754241710.webp" title="لپتاپ 16.2 اینچی مک بوک پرو" link="#" price="99,989,000" rate="3.5" />
+                            <ProductCard image="/b52f9e5ac0e251729f27ac4f7176068344197b6f_1754241710.webp" title="لپتاپ 16.2 اینچی مک بوک پرو" link="#" price="130,000,000" rate="5" />
                             {/* More */}
                         </div>
                     </div>
