@@ -62,3 +62,7 @@ body {
 .bg-primary {
     background: #E18236 !important;
 }
+
+.text-primary {
+    color: #E18236 !important;
+}
