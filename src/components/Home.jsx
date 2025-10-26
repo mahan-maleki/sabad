@@ -101,10 +101,11 @@ function Home() {
                     </div>
                     <div className="col-12 mt-4">
                         <div className="row p-4 d-flex justify-content-center justify-content-lg-start">
-                            <CompanyCard logo="/logos/apple.svg" title="اپل" tag="تکنولوژی" link="#" color="#404040" />
-                            <CompanyCard logo="/logos/apple.svg" title="ایران اپل" tag="تکنولوژی" link="#" color="#502034" />
-                            <CompanyCard logo="/logos/apple.svg" title="اپل ایران" tag="تکنولوژی" link="#" color="#102040" />
-                            <CompanyCard logo="/logos/apple.svg" title="اپلینو" tag="تکنولوژی" link="#" color="#505080" />
+                            <CompanyCard logo="/logos/apple.svg" title="اپل" tag="تکنولوژی" link="#" background="https://picsum.photos/800/400?1" />
+                            <CompanyCard logo="/logos/apple.svg" title="ایران اپل" tag="تکنولوژی" link="#" background="https://picsum.photos/800/400?1" />
+                            <CompanyCard logo="/logos/apple.svg" title="اپل ایران" tag="تکنولوژی" link="#" background="https://picsum.photos/800/400?1" />
+                            <CompanyCard logo="/logos/apple.svg" title="اپلینو" tag="تکنولوژی" link="#" background="https://picsum.photos/800/400?1" />
+                            <CompanyCard logo="/logos/apple.svg" title="اپل نیوز" tag="تکنولوژی" link="#" background="https://picsum.photos/800/400?1" />
                             <More to="#" />
                         </div>
                     </div>
