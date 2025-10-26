@@ -7,6 +7,7 @@ import More from './More'
 import { CreditCard } from 'lucide-react'
 import "./Home.css"
 import Category from './Category'
+import CompanyCard from './CompanyCard'
 
 function Home() {
     return (
@@ -88,6 +89,23 @@ function Home() {
                             <Category link="#" icon={<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-volleyball-icon lucide-volleyball"><path d="M11.1 7.1a16.55 16.55 0 0 1 10.9 4" /><path d="M12 12a12.6 12.6 0 0 1-8.7 5" /><path d="M16.8 13.6a16.55 16.55 0 0 1-9 7.5" /><path d="M20.7 17a12.8 12.8 0 0 0-8.7-5 13.3 13.3 0 0 1 0-10" /><path d="M6.3 3.8a16.55 16.55 0 0 0 1.9 11.5" /><circle cx="12" cy="12" r="10" /></svg>} title="ورزش" />
                             <Category link="#" icon={<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open-icon lucide-book-open"><path d="M12 7v14" /><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z" /></svg>} title="ادبیات" />
                             <Category link="#" icon={<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-drama-icon lucide-drama"><path d="M10 11h.01" /><path d="M14 6h.01" /><path d="M18 6h.01" /><path d="M6.5 13.1h.01" /><path d="M22 5c0 9-4 12-6 12s-6-3-6-12c0-2 2-3 6-3s6 1 6 3" /><path d="M17.4 9.9c-.8.8-2 .8-2.8 0" /><path d="M10.1 7.1C9 7.2 7.7 7.7 6 8.6c-3.5 2-4.7 3.9-3.7 5.6 4.5 7.8 9.5 8.4 11.2 7.4.9-.5 1.9-2.1 1.9-4.7" /><path d="M9.1 16.5c.3-1.1 1.4-1.7 2.4-1.4" /></svg>} title="سرگرمی" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="container-fluid mt-5">
+                <div className="row">
+                    <div className="col-12 d-flex align-items-center px-5">
+                        <div className={css.pointer}></div>
+                        <h3 className='me-2'>پربازدیدترین <span className='border-bottom border-4 bold border-primary-subtle'>فروشگاه ها</span></h3>
+                    </div>
+                    <div className="col-12 mt-4">
+                        <div className="row p-4 d-flex justify-content-center justify-content-lg-start">
+                            <CompanyCard logo="/logos/apple.svg" title="اپل" tag="تکنولوژی" link="#" color="#404040" />
+                            <CompanyCard logo="/logos/apple.svg" title="ایران اپل" tag="تکنولوژی" link="#" color="#502034" />
+                            <CompanyCard logo="/logos/apple.svg" title="اپل ایران" tag="تکنولوژی" link="#" color="#102040" />
+                            <CompanyCard logo="/logos/apple.svg" title="اپلینو" tag="تکنولوژی" link="#" color="#505080" />
+                            <More to="#" />
                         </div>
                     </div>
                 </div>
