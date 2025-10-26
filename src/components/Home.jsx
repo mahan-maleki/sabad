@@ -64,7 +64,7 @@ function Home() {
                     </div>
                     <div className="col-12 col-lg-5 bg-body-secondary p-5">
                         <div className={css.square + " d-none d-lg-block"}></div>
-                        <img src="/sabad-card.png" alt="عکس سبد کارت" width={"70%"} className={css.card + " card"} />
+                        <img src="/sabad-card.png" alt="عکس سبد کارت" width={"70%"} className={css.card + " card rounded-4"} />
                         <div className={css.circle + " d-none d-lg-block"}></div>
                     </div>
                 </div>
