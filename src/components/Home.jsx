@@ -8,6 +8,7 @@ import { CreditCard } from 'lucide-react'
 import "./Home.css"
 import Category from './Category'
 import CompanyCard from './CompanyCard'
+import Post from './Post'
 
 function Home() {
     return (
@@ -106,6 +107,22 @@ function Home() {
                             <CompanyCard logo="/logos/apple.svg" title="اپل ایران" tag="تکنولوژی" link="#" background="https://picsum.photos/800/400?1" />
                             <CompanyCard logo="/logos/apple.svg" title="اپلینو" tag="تکنولوژی" link="#" background="https://picsum.photos/800/400?1" />
                             <CompanyCard logo="/logos/apple.svg" title="اپل نیوز" tag="تکنولوژی" link="#" background="https://picsum.photos/800/400?1" />
+                            <More to="#" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="container-fluid mt-5">
+                <div className="row">
+                    <div className="col-12 d-flex align-items-center px-5">
+                        <div className={css.pointer}></div>
+                        <h3 className='me-2'>جدیدترین <span className='border-bottom border-4 bold border-primary-subtle'>مقالات</span></h3>
+                    </div>
+                    <div className="col-12 mt-4">
+                        <div className="row p-4 d-flex justify-content-center justify-content-lg-start">
+                            <Post poster="https://picsum.photos/800/400?1" title="اپل ، آیفون 17 را معرفی کرد" link="#" />
+                            <Post poster="https://picsum.photos/800/400?2" title="جدیدترین تغییرات ویندوز 11" link="#" />
+                            <Post poster="https://picsum.photos/800/400?3" title="اطلاعیه رسمی شیائومی برای آپدیت های خود" link="#" />
                             <More to="#" />
                         </div>
                     </div>
