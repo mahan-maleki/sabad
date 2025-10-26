@@ -128,6 +128,19 @@ function Home() {
                     </div>
                 </div>
             </div>
+            <div className="container-fluid mt-5 bg-dark">
+                <div className="row py-5">
+                    <div className="col-12">
+                        <h3 className='text-center text-white bold'>جستجو در بستر پلتفرم سبد</h3>
+                    </div>
+                    <div className="col-12 mt-5 d-flex justify-content-center">
+                        <input type="search" placeholder='جستجو کنید ...' className='border-0 py-3 px-5 w-50 rounded-3 form-control' />
+                    </div>
+                    <div className="col-12 mt-3 d-flex justify-content-center">
+                        <button className='border-0 py-3 w-50 rounded-3 btn btn-primary'>جست و جو</button>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }
