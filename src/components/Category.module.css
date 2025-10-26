@@ -1,0 +1,17 @@
+.iconCont {
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.iconCont:hover {
+    background: #E18236;
+    transform: translateY(-10px);
+}
+
+.iconCont>svg {
+    stroke: #303030;
+}
+
+.iconCont:hover>svg {
+    stroke: #FFF;
+}
