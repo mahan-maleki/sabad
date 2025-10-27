@@ -9,6 +9,7 @@ import "./Home.css"
 import Category from './Category'
 import CompanyCard from './CompanyCard'
 import Post from './Post'
+import Brand from './Brand'
 
 function Home() {
     return (
@@ -141,11 +142,19 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div className="container mt-5">
+            <div className="container mt-5 d-none d-lg-block">
                 <div className="row">
                     <div className="col-12 d-flex align-items-center px-5">
                         <div className={css.pointer}></div>
                         <h3 className='me-2'>برند های <span className='border-bottom border-4 bold border-primary-subtle'>معتبر</span></h3>
+                    </div>
+                    <div className="col-12 mt-5">
+                        <div className="row">
+                            <Brand logo="/logos/apple.svg" title="اپل" link="" />
+                            <Brand logo="/logos/apple.svg" title="مایکروسافت" link="" />
+                            <Brand logo="/logos/apple.svg" title="گیتهاب" link="" />
+                            <Brand logo="/logos/apple.svg" title="شیائومی" link="" />
+                        </div>
                     </div>
                 </div>
             </div>
