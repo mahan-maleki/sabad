@@ -141,6 +141,14 @@ function Home() {
                     </div>
                 </div>
             </div>
+            <div className="container mt-5">
+                <div className="row">
+                    <div className="col-12 d-flex align-items-center px-5">
+                        <div className={css.pointer}></div>
+                        <h3 className='me-2'>برند های <span className='border-bottom border-4 bold border-primary-subtle'>معتبر</span></h3>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }
